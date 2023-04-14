@@ -1,7 +1,9 @@
+import React from "react";
+
 function Header() {
   return (
-    <nav class="px-10 pb-10 pt-5">
-      <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-5">
+    <nav class="md:px-10 pb-10 pt-5">
+      <div class="max-w-screen-xl flex md:flex-wrap items-center justify-between mx-auto p-5">
         <div class="flex items-center">
           <a href="">
             <img src="../images/logo.png" class="h-8 mr-3" alt="Logo" />
@@ -42,11 +44,11 @@ function Header() {
         <button
           data-collapse-toggle="navbar-default"
           type="button"
-          class="inline-flex items-center p-2 ml-3 text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
+          class="inline-flex items-center p-2 ml-3 text-sm text-gray-500 rounded-lg md:hidden  focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400  dark:focus:ring-gray-600"
           aria-controls="navbar-default"
           aria-expanded="false"
         >
-          <span class="sr-only">Open main menu</span>
+          <span class="sr-only"></span>
           <svg
             class="w-6 h-6"
             aria-hidden="true"
@@ -62,7 +64,7 @@ function Header() {
           </svg>
         </button>
         <div class="hidden w-full md:block md:w-auto" id="navbar-default">
-          <ul class="font-medium flex items-center p-4 md:p-0 mt-4 md:flex-row md:space-x-8 md:mt-0 ">
+          <ul class="font-medium flex flex-col items-center p-4 md:p-0 mt-4 md:flex-row md:space-x-8 md:mt-0 ">
             <li>
               <a
                 href="#"
@@ -81,7 +83,7 @@ function Header() {
               </a>
             </li>
 
-            <li class="">
+            <li>
               <div class="block pb-2 pl-3 pr-4 text-white relative w-full">
                 <div class="bg-black block py-2 px-10 w-full">
                   <button class="btn-color border border-gray-900 absolute bottom-0 left-0 block py-2 px-10 text-white">

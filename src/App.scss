@@ -15,9 +15,6 @@
   background-color: $background-color;
 }
 
-.text-size{
-  font-size: 70px;
-}
 
 .center-content{
   @include content-center;
@@ -25,6 +22,6 @@
 
 .footer-bg{
   background: linear-gradient(180deg, rgba(197, 213, 255, 0.28) 0%, #F7F7F7 74.7%);
-  height: 50vh;
 }
+
 

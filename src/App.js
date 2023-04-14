@@ -1,3 +1,4 @@
+import React from "react";
 import "./App.scss";
 import Header from "./components/Header";
 import Section from "./components/Section";
@@ -17,9 +18,8 @@ function App() {
         >
           <Section />
         </div>
-        
-          <Footer />
-        
+
+        <Footer />
       </div>
     </div>
   );

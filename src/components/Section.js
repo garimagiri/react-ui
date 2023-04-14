@@ -1,13 +1,15 @@
+import React from "react";
+
 function Section() {
   return (
     <div class="mt-10">
-      <div class="text-size">
+      <div class="md:text-7xl text-5xl">
         <span class="font-thin">This is a</span>{" "}
         <span class="text-color font-bold">Sample</span>
       </div>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+      <p class="mt-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
       <div class="center-content my-6 mb-8">
-        <div class="bg-black w-5/12 relative py-5">
+        <div class="bg-black md:w-5/12 relative py-5 w-3/4">
           <div class="absolute top-2 right-2 w-full">
             <div class="relative">
               <input
@@ -27,15 +29,15 @@ function Section() {
         </div>
       </div>
 
-      <div class="flex justify-center mb-[5rem]">
+      <div class="flex justify-center md:mb-[5rem] mb-[12rem]">
         <img src="../images/google.png" class="h-8 mr-3" alt="Logo" />
         <img src="../images/disney.png" class="h-8 mr-3" alt="Logo" />
         <img src="../images/microsoft.png" class="h-8 mr-3" alt="Logo" />
         <img src="../images/sony.png" class="h-8 mr-3" alt="Logo" />
       </div>
       <div class="flex items-center justify-center z-40">
-        <img src="../images/img_left.png" class="h-64 mr-10" alt="Logo" />
-        <img src="../images/img_right.png" class="h-64" alt="Logo" />
+        <img src="../images/img_left.png" class="md:h-64 h-36 mr-10" alt="Logo" />
+        <img src="../images/img_right.png" class="md:h-64 h-36" alt="Logo" />
       </div>
     </div>
   );
