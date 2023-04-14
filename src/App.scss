@@ -1,0 +1,30 @@
+@import './styles/variables';
+@import './styles/mixins';
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600&display=swap');
+
+.App {
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+}
+
+.text-color{
+  color: $text-color;
+}
+
+.btn-color{
+  background-color: $background-color;
+}
+
+.text-size{
+  font-size: 70px;
+}
+
+.center-content{
+  @include content-center;
+}
+
+.footer-bg{
+  background: linear-gradient(180deg, rgba(197, 213, 255, 0.28) 0%, #F7F7F7 74.7%);
+  height: 50vh;
+}
+
